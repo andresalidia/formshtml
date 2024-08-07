@@ -1,0 +1,81 @@
+<html>
+		<meta  charset ="utf-8"> <!-- comando para colocar Ç e ~ no site -->
+	<head>
+		<title> form.html</title>
+	</head>
+	<body>
+		<br>
+		<form method="post" action="mailto:andresalidia1@gmail.com">
+		
+		
+			<b>NOME: </b>
+			<br>
+			<input type "text" name="nome_pessoa" size= 100> 
+			<br><br>
+			<b>E-mail: </b>
+			<br>
+			<input type "text" name="email" size= 100> 
+			<br><br>
+			<b>ENDEREÇO: </b>
+			<br>
+			 <textarea name="endereco" cols= 97 rows=3></textarea>
+			<br><br>
+			<b>CIDADE: </b>
+			<br>
+			<input type "text" name="cidade" size= 50>
+			<br>
+			
+			
+			<div>
+			<b>ESTADOS:</b>
+			<br>
+				<select multiple name= "estados">
+					<option selected value="SP"> São Paulo
+					<option selected value="RJ"> Rio de Janeiro
+					<option selected value="ES"> Espírito Santo
+					<option selected value="MG"> Minas Gerais
+					<option selected value="BH"> Bahia
+					<option selected value="SE"> Sergipe
+					<option selected value="AL"> Alagoas
+					<option selected value="PB"> Paraiba
+					<option selected value="RN"> Rio Grande do Norte
+					
+				</select>
+			</div>
+			
+			
+			<b>CELULAR:</b>         
+			<br>
+			<input type "text" name="celular" size= 14>
+			<br><br>
+			<b>TELEFONE FIXO:</b>
+			<br>
+			<input type "text" name="telefone" size= 14>
+			<br><br>
+			<div>
+				<b>SEXO:</b>
+				<br><br>
+				<input type="radio" name="Sexo" value="F">Feminino<p>
+				<input type="radio" name="Sexo" value="M">Masculino<p>
+			</div>
+			<br>
+			<div>
+				<b>DIAS DA SEMANA DISPONÍVEL:</b>
+				<br><br>
+				<input type="checkbox" name="Segunda-feira" value="se"> Segunda-feira<p>
+				<input type="checkbox" name="Terça-feira" value="t"> Terça-feira<p>
+				<input type="checkbox" name="Quarta-feira" value="qua"> Quarta-feira<p>
+				<input type="checkbox" name="Quinta-feira" value="qui"> Quinta-feira<p>
+				<input type="checkbox" name="Sexta-feira" value="sx"> Sexta-feira<p>
+				
+			</div>
+			<br>
+			<b>SENHA: </b>
+			<br>
+			<input type="password" name="senha" maxlength=8> 
+			<br><br>
+			<input type="submit" value="ENVIAR">
+			<input type="reset" value="LIMPAR">
+		</form>
+	</body>
+</htm>
